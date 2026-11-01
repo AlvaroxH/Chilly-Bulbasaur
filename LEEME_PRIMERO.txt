@@ -1,0 +1,29 @@
+CHILLY WILLY — BULBASAUR HALLOWEEN
+==================================
+Este proyecto es CÓDIGO FUENTE de un mod Fabric, NO un JAR ya compilado.
+Tiene el modelo 19 cubos y la textura 64 x 64 que subiste, sin modificar el peluche original.
+
+Objetivo:
+- Bloque decorativo propio: chilly_halloween:bulbasaur_halloween
+- Entrega por OP: /give @p chilly_halloween:bulbasaur_halloween 1
+- Sin receta y sin pestaña creativa: solo por comando.
+- Jugadores pueden colocarlo y recuperarlo al romperlo.
+
+Cómo compilar (usa GitHub Actions como en tus otros mods):
+1) Creá un repositorio nuevo en GitHub.
+2) Subí el CONTENIDO de esta carpeta a la raíz del repositorio.
+3) Actions > Compilar Bulbasaur Halloween > Run workflow.
+4) Si el build resulta VERDE, descargá el artifact y extraé el .jar (no el -sources.jar).
+5) Poné el JAR del addon tanto en mods/ del servidor como en mods/ de los jugadores.
+6) Reiniciá servidor y cliente antes de probar /give.
+
+Dependencias: Minecraft 1.21.1 Fabric, Java 21, Fabric API, GeckoLib >=4.7.3, Pokeblocks.
+
+ADVERTENCIA: El código fuente y los recursos se revisaron localmente, pero el JAR NO
+se pudo compilar ni probar aquí porque faltan dependencias de Gradle y red.
+Puede requerir ajustes de Java durante el primer build. Si Actions devuelve error,
+compartí el log para corregir el código fuente. No lo anuncies como instalado hasta
+que compile y se vea en un mundo de pruebas.
+
+Importante: El launcher podría automatizar la descarga del JAR cliente; NO basta
+con distribuir solo un resource pack para registrar este bloque propio.

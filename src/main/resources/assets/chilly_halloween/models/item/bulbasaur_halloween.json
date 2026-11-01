@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "chilly_halloween:item/bulbasaur_halloween"
+  }
+}
