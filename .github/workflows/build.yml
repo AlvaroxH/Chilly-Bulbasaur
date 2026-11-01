@@ -19,6 +19,6 @@ jobs:
       - run: gradle --no-daemon build
       - uses: actions/upload-artifact@v4
         with:
-          name: Chilly-Bulbasaur-Halloween-1.0.0
-          path: build/libs/*-1.0.0.jar
+          name: Chilly-Bulbasaur-Halloween-1.0.1
+          path: build/libs/*-1.0.1.jar
           if-no-files-found: error
