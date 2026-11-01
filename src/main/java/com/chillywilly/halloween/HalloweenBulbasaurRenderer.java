@@ -5,6 +5,6 @@ import software.bernie.geckolib.renderer.GeoBlockRenderer;
 
 public final class HalloweenBulbasaurRenderer extends GeoBlockRenderer<HalloweenBulbasaurBlockEntity> {
     public HalloweenBulbasaurRenderer(BlockEntityRendererFactory.Context context) {
-        super(context, new HalloweenBulbasaurModel());
+        super(new HalloweenBulbasaurModel());
     }
 }

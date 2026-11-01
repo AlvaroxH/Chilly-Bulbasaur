@@ -4,11 +4,13 @@ import net.minecraft.util.Identifier;
 import software.bernie.geckolib.model.GeoModel;
 
 public final class HalloweenBulbasaurModel extends GeoModel<HalloweenBulbasaurBlockEntity> {
+    @SuppressWarnings("removal")
     @Override
     public Identifier getModelResource(HalloweenBulbasaurBlockEntity animatable) {
         return Identifier.of(ChillyHalloween.ID, "geo/bulbasaur_halloween.geo.json");
     }
 
+    @SuppressWarnings("removal")
     @Override
     public Identifier getTextureResource(HalloweenBulbasaurBlockEntity animatable) {
         return Identifier.of(ChillyHalloween.ID, "textures/block/bulbasaur_halloween.png");

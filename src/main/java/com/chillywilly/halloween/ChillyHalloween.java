@@ -11,7 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.GeckoLib;
 
 public final class ChillyHalloween implements ModInitializer {
     public static final String ID = "chilly_halloween";
@@ -33,6 +32,6 @@ public final class ChillyHalloween implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        GeckoLib.initialize();
+        // En GeckoLib 4.7.3 la inicializacion de la libreria es automatica.
     }
 }
